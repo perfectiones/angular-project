@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import './style/base/null.scss';
+
+.d-3{
+    display: none;
+    @media (max-width:768px) {
+        display: block;
+    }
+    
+}
+.d-3-none{
+    display: block;
+    @media (max-width:768px) {
+        display: none !important; 
+    }
+}
+
+.container{
+    max-width: 1440px !important;
+}
