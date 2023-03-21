@@ -48,4 +48,3 @@ module.exports.comparePass = function(passFromUser, userDbPass, callback) {
         callback(null, isMatch);
     });
 };
-
